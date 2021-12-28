@@ -14,6 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Product {
     @Id
     private String id;
+    private String descripcion;
     private String categoria;
     private double precioUnitario;
     private boolean activo;
